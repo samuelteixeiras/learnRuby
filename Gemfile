@@ -5,6 +5,13 @@ gem 'rails', '3.0.9'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+group :development do
+gem 'rspec-rails', '~>2.6'
+gem 'spork', '0.8.4'
+
+end
+
+
 gem 'mysql2', '~> 0.2.6'
 
 # Use unicorn as the web server

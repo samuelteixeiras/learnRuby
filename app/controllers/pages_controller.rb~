@@ -1,0 +1,18 @@
+class PagesController < ApplicationController
+  def home
+  
+  @title="Home";
+  render :layout => false
+  end
+
+  def contact
+  @title="Contact";
+  end
+
+  def about
+  @title="About";
+  render :layout => false
+  end
+
+
+end
