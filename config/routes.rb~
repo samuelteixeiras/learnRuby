@@ -8,8 +8,6 @@ LearnRuby::Application.routes.draw do
   get "pages/contact"
 
   get "pages/about"
-  
-  get "users/new"
 
   
 	

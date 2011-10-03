@@ -2,11 +2,7 @@ class PagesController < ApplicationController
   def home
   
   @title="Home";
-    (1..5).each do |i|
-	  puts 2 * i
-	 end
-  
-  end
+   end
 
   def contact
   @title="Contact";

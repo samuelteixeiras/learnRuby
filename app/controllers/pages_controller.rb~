@@ -42,6 +42,8 @@ class PagesController < ApplicationController
 	#"Betelgeuse!"
 	#	  (1..5).map { |i| i**2 } result 1 4 9 16 25 
 	#	  %w[a b c].map { |char| char.upcase result ["A","B","C"] 
+	#	  ('a'..'z').to_a.shuffle[0..7].join
+
 
 
 
