@@ -8,7 +8,7 @@ gem 'rails', '3.0.9'
 group :development do
 gem 'rspec-rails', '~>2.6'
 gem 'spork', '0.8.4'
-
+gem 'annotate' , '2.4.0'
 end
 
 
