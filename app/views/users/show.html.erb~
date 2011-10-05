@@ -1,6 +1,7 @@
-<h1>
-<%= @user.name %>
-</h1>
+	<h1>
+	<%= gravatar_for @user ,:size => 130 %>
+	<%= @user.name %>
+	</h1>
 
 <p id="notice"><%= notice %></p>
 
