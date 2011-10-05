@@ -18,7 +18,8 @@ LearnRuby::Application.routes.draw do
   match 'contact_path', :to => 'pages#contact'
   match 'about_path',   :to => 'pages#about'
   match 'help_path',    :to => 'pages#help'
-  match 'signup_path',  :to => 'users#new'
+  match 'signup_path','signup',  :to => 'users#new'
+  
   
 
 
